@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chess_pieces/bB.png</file>
+        <file>chess_pieces/bK.png</file>
+        <file>chess_pieces/bN.png</file>
+        <file>chess_pieces/bP.png</file>
+        <file>chess_pieces/bQ.png</file>
+        <file>chess_pieces/bR.png</file>
+        <file>chess_pieces/lastmove.gif</file>
+        <file>chess_pieces/wB.png</file>
+        <file>chess_pieces/wK.png</file>
+        <file>chess_pieces/wN.png</file>
+        <file>chess_pieces/wP.png</file>
+        <file>chess_pieces/wQ.png</file>
+        <file>chess_pieces/wR.png</file>
+    </qresource>
+</RCC>

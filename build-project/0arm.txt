@@ -1,0 +1,170 @@
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-1065-raspi aarch64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jul 13 14:31:16 UTC 2022
+
+  System load:  2.38               Processes:           236
+  Usage of /:   43.1% of 28.37GB   Users logged in:     1
+  Memory usage: 41%                IP address for eth0: 223.2.45.185
+  Swap usage:   0%
+
+  => There is 1 zombie p
+rocess.
+
+
+318 packages can be updated.
+2 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+
+Last login: Wed Jul 13 14:31:14 2022 from 223.2.37.250
+
+
+
+ubuntu@ubuntu:~$ 
+
+
+ubuntu@ubuntu:~$ 
+
+
+ubuntu@ubuntu:~$ 
+cd Desktop/loongson
+ubuntu@ubuntu:~/Desktop/loongson$ 
+
+ubuntu@ubuntu:~/Desktop/loongson$ 
+python3 move.py e7e5
+
+python3 move.py default
+
+[32m[DEBUG] [1657722710.109405]: init_node, name[/ik_test], pid[32328]
+[0m
+[32m[DEBUG] [1657722710.123183]: binding to 127.0.0.1 0
+[0m
+[32m[DEBUG] [1657722710.128433]: bound to 127.0.0.1 38937
+[0m
+[32m[DEBUG] [1657722710.133535]: ... service URL is rosrpc://localhost:38937
+[0m
+[32m[DEBUG] [1657722710.138351]: [/ik_test/get_loggers]: new Service instance
+[0m
+[32m[DEBUG] [1657722710.146579]: ... service URL is rosrpc://localhost:38937
+[0m
+[32m[DEBUG] [1657722710.151069]: [/ik_test/set_logger_level]: new Service instance
+[0m
+e7坐标： -42 162 -15
+
+e5坐标： 5 156 -15
+[32m[DEBUG] [1657722715.597808]: TCPServer[38937] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ python3 move.py default
+[32m[DEBUG] [1657722718.056632]: init_node, name[/ik_test], pid[32462]
+[0m[32m[DEBUG] [1657722718.065273]: binding to 127.0.0.1 0
+[0m[32m[DEBUG] [1657722718.069912]: bound to 127.0.0.1 33143
+[0m[32m[DEBUG] [1657722718.075591]: ... service URL is rosrpc://localhost:33143
+[0m[32m[DEBUG] [1657722718.080837]: [/ik_test/get_loggers]: new Service inst
+ance
+[0m[32m[DEBUG] [1657722718.090257]: ... service URL is rosrpc://localhost:33143
+[0m[32m[DEBUG] [1657722718.095555]: [/ik_test/set_logger_level]: new Service instance
+[0mi1坐标： 100 0 0
+[32m[DEBUG] [1657722718.839949]: TCPServer[33143] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ 
+python3 move.py b8c6
+
+python3 move.py default
+
+[32m[DEBUG] [1657722750.355455]: init_node, name[/ik_test], pid[10379]
+[0m
+[32m[DEBUG] [1657722750.361866]: binding to 127.0.0.1 0
+[0m
+[32m[DEBUG] [1657722750.367824]: bound to 127.0.0.1 37655
+[0m
+[32m[DEBUG] [1657722750.374497]: ... service URL is rosrpc://localhost:37655
+[0m
+[32m[DEBUG] [1657722750.379585]: [/ik_test/get_loggers]: new Service instance
+[0m
+[32m[DEBUG] [1657722750.391845]: ... service URL is rosrpc://localhost:37655
+[0m
+[32m[DEBUG] [1657722750.396694]: [/ik_test/set_logger_level]: new Service instance
+[0m
+b8坐标： -65 95 -15
+
+c6坐标： -18 113 -15
+[32m[DEBUG] [1657722755.747628]: TCPServer[37655] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ python3 move.py default
+[32m[DEBUG] [1657722757.989094]: init_node, name[/ik_test], pid[10652]
+[0m[32m[DEBUG] [1657722757.993768]: binding to 127.0.0.1 0
+[0m[32m[DEBUG] [1657722757.997898]: bound to 127.0.0.1 40315
+[0m[32m[DEBUG] [1657722758.002461]: ... service URL is rosrpc://localhost:40315
+[0m[32m[DEBUG] [1657722758.006732]: [/ik_test/get_loggers]: new Service in
+stance
+[0m[32m[DEBUG] [1657722758.017249]: ... service URL is rosrpc://localhost:40315
+[0m[32m[DEBUG] [1657722758.021362]: [/ik_test/set_logger_level]: new Service instance
+[0mi1坐标： 100 0 0
+[32m[DEBUG] [1657722758.751620]: TCPServer[40315] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ 
+python3 move.py e5e4
+
+python3 move.py default
+
+[32m[DEBUG] [1657722790.538089]: init_node, name[/ik_test], pid[19638]
+[0m
+[32m[DEBUG] [1657722790.552223]: binding to 127.0.0.1 0
+[0m
+[32m[DEBUG] [1657722790.563110]: bound to 127.0.0.1 39425
+
+[0m
+[32m[DEBUG] [1657722790.579541]: ... service URL is rosrpc://localhost:39425
+
+
+[0m
+[32m[DEBUG] [1657722790.592242]: [/ik_test/get_loggers]: new Service instance
+
+[0m
+[32m[DEBUG] [1657722790.604740]: ... service URL is rosrpc://localhost:39425
+[0m
+[32m[DEBUG] [1657722790.612109]: [/ik_test/set_logger_level]: new Service instance
+
+
+[0m
+e5坐标： 5 156 -15
+
+e4坐标： 30 155 -15
+[32m[DEBUG] [1657722796.060586]: TCPServer[39425] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ python3 move.py default
+[32m[DEBUG] [1657722798.252713]: init_node, name[/ik_test], pid[20774]
+[0m[32m[DEBUG] [1657722798.257376]: binding to 127.0.0.1 0
+[0m[32m[DEBUG] [1657722798.261549]: bound to 127.0.0.1 43169
+[0m[32m[DEBUG] [1657722798.266172]: ... service URL is rosrpc://localhost:43169
+[0m[32m[DEBUG] [1657722798.270597]: [/ik_test/get_loggers]: new Service ins
+tance
+[0m[32m[DEBUG] [1657722798.278187]: ... service URL is rosrpc://localhost:43169
+[0m[32m[DEBUG] [1657722798.285735]: [/ik_test/set_logger_level]: new Service instance
+[0mi1坐标： 100 0 0
+[32m[DEBUG] [1657722799.032265]: TCPServer[43169] shutting down
+[0mubuntu@ubuntu:~/Desktop/loongson$ 
+python3 move.py f3
+
+[32m[DEBUG] [1657722830.650244]: init_node, name[/ik_test], pid[28625]
+[0m[32m[DEBUG] [1657722830.655830]: binding to 127.0.0.1 0
+[0m[32m[DEBUG] [1657722830.664240]: bound to 127.0.0.1 43899
+[0m[32m[DEBUG] [1657722830.672625]: ... service URL is rosrpc://localhost:43899
+[0m[32m[DEBUG] [1657722830.678192]: [/ik_test/get_loggers]: new Service instance
+[0m[32m[DEBUG] [1657722830.689444]: ... service URL is rosrpc://localhost:43899
+[0m[32m[DEBUG] [1657722830.703475]: [/ik_test/set_logger_leve
+l]: new Service instance
+[0mf3坐标： 55 176 -15
+i2坐标： 150 50 0
+
+python3 move.py e4f3
+
+python3 move.py
+ default
+
+[32m[DEBUG] [1657722836.229453]: TCPServer[43899] shutting down
+[0m
+ubuntu@ubuntu:~/Desktop/loongson$ python3 move.py e4f3
+

@@ -1,0 +1,24 @@
+QMAKE_CXX.INCDIRS = \
+    /usr/include/c++/8 \
+    /usr/include/mips64el-linux-gnuabi64/c++/8 \
+    /usr/include/c++/8/backward \
+    /usr/lib/gcc/mips64el-linux-gnuabi64/8/include \
+    /usr/local/include \
+    /usr/lib/gcc/mips64el-linux-gnuabi64/8/include-fixed \
+    /usr/include/mips64el-linux-gnuabi64 \
+    /usr/include
+QMAKE_CXX.LIBDIRS = \
+    /usr/lib/gcc/mips64el-linux-gnuabi64/8 \
+    /usr/lib/mips64el-linux-gnuabi64 \
+    /usr/lib \
+    /lib/mips64el-linux-gnuabi64 \
+    /lib
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
